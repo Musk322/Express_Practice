@@ -11,7 +11,7 @@ const loggerMiddleware = (req,res,next)=>{
 app.use(loggerMiddleware);
 
 app.use('/admin',(req,res,next)=>{
-    console.log('Admin section Accessed');
+    console.log('Admin Section Accessed');
     next();
 });
 
